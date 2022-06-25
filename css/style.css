@@ -1,0 +1,28 @@
+.tabela{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+}
+.preto{
+    background-color: black;
+}
+.branco{
+    background-color: black;
+}
+#anima-div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation: mov-div 3s infinite;
+}
+@keyframes mov-div{
+    0%{margin-top: 0px;margin-left: 0px;}
+    12.5%{margin-top: 125px;margin-left: 0px;}
+    25%{margin-top: 125px;margin-left: 80px;}
+    37.5%{margin-top: 125px;margin-left: 160px;}
+    50%{margin-top: 275px;margin-left: 160px;}
+    62.5%{margin-top: 275px;margin-left: 80px;}
+    75%{margin-top: 500px;margin-left: 80px;}  
+    87.5%{margin-top: 500px;margin-left: 0px;}
+    100%{margin-top: 500px;margin-left: 0px;}     
+}
